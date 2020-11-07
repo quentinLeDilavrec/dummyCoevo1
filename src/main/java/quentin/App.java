@@ -6,10 +6,10 @@ package quentin;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println(getHelloWorld());
+        System.out.println(getGreeting());
     }
 
-    public static String getHelloWorld() {
-        return "Hello World!";
+    public static String getGreeting() {
+        return "Hello!";
     }
 }
