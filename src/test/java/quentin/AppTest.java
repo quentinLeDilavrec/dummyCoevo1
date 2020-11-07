@@ -17,12 +17,8 @@ public class AppTest {
         assertTrue(true);
     }
 
-    // public static String getHelloWorld() {
-    //     return "Hello World!";
-    // }
-    // @Test
-    // public void shouldGetHelloWorld()
-    // {
-    //     assertEquals( "Hello World" , App.getHelloWorld() );
-    // }
+    @Test
+    public void shouldGetHelloWorld() {
+        assertEquals("Hello World!", App.getHelloWorld());
+    }
 }
