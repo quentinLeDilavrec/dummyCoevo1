@@ -19,6 +19,6 @@ public class AppTest {
 
     @Test
     public void shouldGetGreeting() {
-        assertEquals("Hello!", App.getGreeting());
+        assertEquals("Hello Quentin!", App.getGreeting("Quentin"));
     }
 }
